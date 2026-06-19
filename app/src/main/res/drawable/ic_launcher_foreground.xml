@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Shadow depth projection -->
+    <path
+        android:fillColor="#3C000000"
+        android:pathData="M26,38 L54,58 L82,38 L86,42 L54,64 L22,42 Z" />
+
+    <!-- Left Candy Wrapper Ribbon -->
+    <path
+        android:pathData="M54,54 L24,34 L20,54 L24,74 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="20"
+                android:startY="54"
+                android:endX="54"
+                android:endY="54"
+                android:type="linear">
+                <item android:color="#FF2E83" android:offset="0.0"/>
+                <item android:color="#7B1FA2" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right Candy Wrapper Ribbon -->
+    <path
+        android:pathData="M54,54 L84,34 L88,54 L84,74 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="88"
+                android:startY="54"
+                android:endX="54"
+                android:endY="54"
+                android:type="linear">
+                <item android:color="#FF2E83" android:offset="0.0"/>
+                <item android:color="#7B1FA2" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center Sweet Circle Base (Jewel effect) -->
+    <path
+        android:pathData="M54,34 C42.95,34 34,42.95 34,54 C34,65.05 42.95,74 54,74 C65.05,74 74,65.05 74,54 C74,42.95 65.05,34 54,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="34"
+                android:startY="34"
+                android:endX="74"
+                android:endY="74"
+                android:type="linear">
+                <item android:color="#FFFFB300" android:offset="0.0"/>
+                <item android:color="#FFFF3D00" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Shiny Star Cut Reflection Overlay on sweet -->
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M54,42 L57,51 L66,54 L57,57 L54,66 L51,57 L42,54 L51,51 Z" />
+
+    <!-- Pure White Edge glare dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43,45 C41.5,45 40.5,46 40.5,47.5 C40.5,49 41.5,48.5 43,48.5 C44.5,48.5 45.5,47.5 45.5,46 C45.5,44.5 44.5,45 43,45 Z" />
+
+</vector>

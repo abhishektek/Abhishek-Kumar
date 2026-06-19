@@ -1,0 +1,6 @@
+{
+  "name": "Candy Match & Earn",
+  "description": "Vibrant Candy Crush style match-3 game with custom local earning system, interactive scratch cards, and cashout rewards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
